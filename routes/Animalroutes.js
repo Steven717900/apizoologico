@@ -1,3 +1,6 @@
+//Port:3000
+//MONGO_URI=mongodb+srv://usuario:password@cluster0.xxxxx.mongodb.net/animalsd
+
 const express = require("express");
 const router = express.Router();
 const Animal = require("../models/Animal");
